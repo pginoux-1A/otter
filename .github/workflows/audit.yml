@@ -19,7 +19,7 @@ jobs:
   audit:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: AmadeusITGroup/otter/tools/github-actions/cascading@feature/add-cascading-action
       - name: Setup
         uses: ./.github/actions/setup
         with:
